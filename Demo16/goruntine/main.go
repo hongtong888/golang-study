@@ -24,4 +24,5 @@ func main() {
 		fmt.Println("main() 你好golang")
 		time.Sleep(time.Millisecond * 100)
 	}
+	defer func() {}()
 }
